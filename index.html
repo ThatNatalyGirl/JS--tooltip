@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title> ¯\_(ツ)_/¯ </title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="dist/css/main.css">
+
+		<!--
+			Do I work in src or dist? Good question. 
+			
+			First of all, if you're a newbie and you don't want to worry about any of this 
+			command line gulp stuff, or scss, or browser-syncing, just do everything in dist.
+			In fact, just delete the src folder.
+			
+			If you're a geek and want to get into it, here's some background...
+
+			The gulp command line helper will watch your files, and where appropriate, 
+			it will error-check and compile them from one format to another. To stay organized, 
+			we have to split things up between the files we write: the *source* files in "src"; 
+			and the files they become: the files that get *distributed* on the web, in "dist".
+		
+			So src/scss files become dist/css files,
+			And src/js files become dist/js files (that have been compiled down to ES5),
+			And src/img files become dist/img files (that have been compressed for you).
+
+			Anything that doesn't need compiling/compressing/error-checking (plugins, video, fonts, etc), 
+			just put straight in *dist*. 
+			
+			One way to remember it is: you're only going to distribute *dist*. You keep the source files 
+			to yourself, hidden from the world.
+
+			Go here to learn more about src and dist:
+				https://stackoverflow.com/questions/23730882/what-is-the-role-of-src-and-dist-folders
+			Or here for detailed instructions on setting up the gulp command line helper.
+				https://github.com/CreativeCircus/circus-starter
+
+			- Chris Silich
+		-->
+		
+	</head>
+	<body>
+		
+		<div class="content">
+			<p>
+				<em id="lorem">Lorem ipsum</em> dolor sit amet, consectetur adipiscing elit. Ut a ex iaculis, varius lectus vel, cursus orci. Aenean eu mollis enim. Nulla tincidunt quam felis, ut pellentesque erat consequat ut. Cras nec ligula a nibh dapibus molestie. Curabitur tincidunt maximus lorem in hendrerit. Suspendisse ut turpis egestas, interdum odio eu, bibendum quam. Morbi nec sollicitudin lorem, non molestie mauris. Ut dictum urna velit. Vestibulum sapien libero, dapibus nec orci et, tincidunt viverra libero. Fusce molestie odio erat, vitae accumsan augue convallis sed. Aenean commodo viverra nunc, ac dapibus velit. Vestibulum vel ultrices nibh.
+			</p>
+			<p>
+				Donec feugiat est quis nisl fringilla interdum. Donec sollicitudin ornare tellus vel pulvinar. Quisque sapien mi, cursus ac enim sed, condimentum tempor ligula. Quisque diam leo, scelerisque luctus nisi non, pharetra vulputate odio. Aenean at nibh neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas eu porttitor diam. Cras lorem leo, vulputate sed sodales in, consequat molestie nisi. Nullam lobortis metus vitae lectus mattis, in mattis dolor mollis. Aenean mattis egestas neque, eu tristique massa ullamcorper vitae. Aliquam in fringilla sapien, in sollicitudin turpis. Vestibulum faucibus neque lorem, vel rutrum mi aliquam et.
+			</p>
+			<p>
+				Quisque in elementum erat. Phasellus tincidunt vehicula lacus, dignissim placerat sapien sodales ut. Donec ut magna sagittis, varius ligula ut, accumsan quam. Aliquam diam augue, faucibus vitae accumsan ut, mattis eget nunc. Sed turpis diam, laoreet ultrices sem sit amet, ultricies ornare purus. In hac habitasse platea dictumst. Cras rhoncus ultrices mollis. Integer eu ex eu leo rhoncus mollis. Donec vel erat quis ex sodales pharetra. Duis ullamcorper tellus ut venenatis varius. Cras suscipit eleifend rutrum. Aliquam accumsan dui a nibh lacinia, et consequat diam cursus. Morbi sapien purus, fringilla non purus ut, tristique imperdiet ante. Donec rutrum, neque eu accumsan venenatis, sem arcu malesuada magna, sit amet interdum libero lorem sed turpis. Morbi tristique massa vel metus ultrices, quis eleifend nibh dapibus.
+			</p>
+			<p>
+				Suspendisse potenti. Etiam gravida, urna et fringilla hendrerit, neque lacus tempor libero, quis ultrices ipsum massa vitae ex. Morbi at accumsan metus. Pellentesque eget libero nulla. Donec est est, porta ac felis eu, viverra vehicula ipsum. Nunc eu mauris in erat accumsan ultricies. Ut id viverra ipsum, elementum tempus sem. Cras egestas lacinia quam, fermentum molestie est facilisis ac. Integer mattis consectetur tortor, vitae dignissim est posuere vel.
+			</p>
+			<p>
+				Vivamus placerat feugiat eleifend. Etiam faucibus posuere nibh, et fermentum leo ultrices non. Cras laoreet tincidunt ligula, id suscipit lacus feugiat non. Aliquam condimentum turpis quis aliquam laoreet. Sed in euismod mi, at mollis nulla. Nulla sit amet ullamcorper dui. Mauris tellus massa, tincidunt et sem ac, porta lobortis tortor. Ut id libero vel neque faucibus ornare sed eget nulla. Proin non nunc a turpis blandit interdum eu pharetra lacus. Etiam faucibus elit ac imperdiet imperdiet. Ut vitae eros ut lectus placerat aliquam id eu quam. Quisque vitae massa tellus. Cras libero massa, rhoncus nec pellentesque ut, fermentum a sem. Phasellus suscipit id lectus in condimentum.
+			</p>
+		</div>
+
+		<script src="dist/js/tooltip.js"></script>
+		<script src="dist/js/main.js"></script>
+
+	</body>
+</html>
