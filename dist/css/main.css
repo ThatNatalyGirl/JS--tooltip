@@ -73,8 +73,9 @@ table {
 }
 
 body {
-	background: white;
+	background: grey;
 	font-family: sans-serif;
+	color: pink;
 }
 
 /* 2. Content ================================= */
@@ -86,6 +87,10 @@ body {
 .content p {
 	line-height: 1.5em;
 	margin-bottom: 0.5em;
+}
+
+.content p em {
+	color: aquamarine;
 }
 
 /*# sourceMappingURL=main.css.map */

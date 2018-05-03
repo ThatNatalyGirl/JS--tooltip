@@ -24,8 +24,9 @@ TABLE OF CONTENTS:
 }
 
 body {
-	background: white;
+	background: grey;
 	font-family: sans-serif;
+	color: pink;
 }
 
 
@@ -39,5 +40,9 @@ body {
 	p {
 		line-height: 1.5em;
 		margin-bottom: 0.5em;
+
+		em{
+			color: aquamarine;
+		}
 	}
 }
